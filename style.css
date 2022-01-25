@@ -30,22 +30,34 @@ a:hover {
 .text_citation { 
     font-family: arial; 
     font-size: 24px;
-    color: black;
     text-align: center;
 }
 
 .text_citation_1 { 
     font-family: arial; 
     font-size: 24px;
-    color: black;
     font-style: italic;
 }
 
 .quote_titre {
     font-family: arial; 
     font-size: 12px;
-    color: black;
 }
+
+.bloc main { 
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 100px;
+    background-image: url("img/dots-bg.webp");
+}
+
 
 .bloc {
     width: 100%;
@@ -111,7 +123,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -305,6 +316,11 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+}
+
+#bloc-5-cta h2 {
+    color: white!important;
+    font-weight: bold;
 }
 
 .navbar {
@@ -674,6 +690,11 @@ a {
     color: #575757!important;
 }
 
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -756,7 +777,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
+}
+
+.blanc {
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -795,17 +820,21 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
+}
+
+.tc-black {
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -830,19 +859,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
